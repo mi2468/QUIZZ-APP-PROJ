@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZ APP PROJECT - BY ABRAR USING HTML, CSS & JS</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2 class="quizHead">Quizz App</h2>
+        <div class="topics">
+            <div class="javaScript">
+                    <h4 class="quizTopic">JAVASCRIPT</h4>
+                <div class="img">
+                    <img src="/images/js-logo2.png" width="160" alt="javaScriptLogo">
+                </div>
+                <div class="Btn">
+                    <button class="startBtn btn-grad" id="startJs" onclick="startQuiz('Javascript')">Start JS Quiz</button>
+                </div>
+            </div>
+            <div class="reactJs">
+                    <h4 class="quizTopic">REACT JS</h4>
+                <div class="img">
+                    <img src="/images/react-logo3.png" width="200" alt="reactJsLogo">
+                </div>
+                <div class="Btn">
+                    <button class="startBtn btn-grad reactJsBtn" id="startReactJs" onclick="startQuiz('React')">Start React Js Quiz</button>
+                </div>
+            </div>
+            <div class="git">
+                    <h4 class="quizTopic">GIT</h4>
+                <div class="img">
+                    <img src="/images/git-logo1.png" width="300" alt="gitLogo">
+                </div>
+                <div class="Btn">
+                    <button class="startBtn btn-grad" id="startGit" onclick="startQuiz('Git')">Start Git Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
